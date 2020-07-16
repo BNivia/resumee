@@ -1,0 +1,47 @@
+.inhead{
+    text-align: center;
+    font-size: 50px;
+    background-color: lightseagreen;
+    color: white;
+    padding: 30px 30px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+#box{
+    border: 1px solid white;
+    margin: 10px 10px;
+    padding: 10px;
+}
+
+#me{
+    border-radius: 100%;
+    margin: 0 auto;
+}
+
+#sidebar{
+    height: 100%;
+    width: 170px;
+    position: absolute;
+    z-index: 1;
+    top: 200px;
+    left: 10px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow-x: hidden;
+    background-color: lightgray;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+#content{
+    margin-right: 200px;
+    margin-left: 400px;
+    padding: 0 10px;
+}
+
+#sidebar, #content{
+    display: inline-block;
+}
+

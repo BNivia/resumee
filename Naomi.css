@@ -39,7 +39,8 @@ main{
     background: lightgrey;
     height: 100vh;   
     margin-right: 70px;
-    padding: 10px 10px;
+    margin-top: 22px;
+    padding: 20px 20px;
 }
 #bio{
     grid-row: 1/2;
